@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Wangdenticon-WASM</title>
+  </head>
+  <body>
+    <script src="index.js"></script>
+
+    <div>
+      <h1>Wangdenticon-WASM</h1>
+    </div>
+
+    <div>
+      <canvas id="canvas" width="255" height="255" />
+    </div>
+
+    <div>
+      <input type="textbox" id="name-textbox" placeholder="Enter your name here..." />
+    </div>
+
+    <div>
+      <label for="grid-size" style="font-size: 15px;">Grid Size: </label>
+      <select name="grid-size" id="grid-size">
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="invert?" style="font-size: 15px">Invert? </label>
+      <input type="checkbox" name="invert?" id="invert?" />
+    </div>
+
+    <div>
+      <button id="generate">Generate!</button>
+    </div>
+  </body>
+</html>
