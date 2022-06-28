@@ -7,6 +7,8 @@ The below wangdenticon is for string: `aaaaaaaaaaaaaaaaa`
 ![alt text](face.png)
 
 ## Getting Started
+1. Go to [here](https://sinha-ujjawal.github.io/wangdenticon-wasm/)
+2. Enjoy! :)
 
 ## Build locally
 1. Install [rust and cargo using rustup](https://www.rust-lang.org/tools/install) and [npm](https://nodejs.org/en/).
